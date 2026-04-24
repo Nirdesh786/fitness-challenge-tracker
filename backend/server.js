@@ -87,7 +87,7 @@ const app = express();
 // 🔹 MIDDLEWARE
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://fitness-challenge-tracker-2hl7-2akdy400f-nirdesh786s-projects.vercel.app",
     credentials: true,
   })
 );
