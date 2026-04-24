@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://fitness-challenge-tracker-beq7okebj-nirdesh786s-projects.vercel.app/api";
 const getToken = () =>
   localStorage.getItem("accessToken");
 
